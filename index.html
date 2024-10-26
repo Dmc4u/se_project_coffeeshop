@@ -22,8 +22,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap"
       rel="stylesheet"
@@ -55,8 +53,8 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty coffee</span
-          ><span class="header__span">in the Triple Peaks Library</span>
+          <span class="header__span-accent">Specialty coffee</span>in the Triple
+          Peaks Library
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -86,8 +84,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience
           </p>
-          <div class="recipes__videos">
-            <div class="video">
+          <ul class="recipes__videos">
+            <li class="video">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=Xl3DC0f2FZigFTmA"
@@ -99,8 +97,8 @@
               <p class="recipes__video-caption">
                 <span>Aeropress recipe</span> ~5 Min
               </p>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=Iqeci9dEUPbFY0RS"
@@ -111,8 +109,8 @@
               <p class="recipes__video-caption">
                 <span>French press recipe</span> ~15 Min
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -125,6 +123,7 @@
                   class="form__input"
                   id="name"
                   placeholder="Name Surname"
+                  required
                 />
               </label>
               <label for="number" class="form__label"
@@ -134,6 +133,7 @@
                   class="form__input"
                   id="number"
                   placeholder="1-8"
+                  required
                 />
               </label>
               <label for="datetime-local" class="form__label"
@@ -151,13 +151,18 @@
                   class="form__input"
                   id="email"
                   placeholder="dmsesbiz2005@gmail.com"
+                  required
                 />
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" id="checkbox" />I
-              agree with the terms of use
+              <input
+                type="submit"
+                class="form__checkbox"
+                id="checkbox"
+                required
+              />I agree with the terms of use
             </label>
           </form>
         </section>
@@ -257,7 +262,7 @@
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-      <footer class="footer" id="Contacts">
+      <footer class="footer" id="contacts">
         <div class="footer__content">
           <img
             src="./images/logo_coffeeshop_light.svg"

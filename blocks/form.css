@@ -1,29 +1,5 @@
-.reservation {
-  padding: 100px 0 120px;
-  background-color: #d9e7ff;
-  background-image: url(../images/background_reservation.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.reservation__title {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  text-align: center;
-  margin: 0 0 80px;
-}
-
-.reservation__form {
-  margin: 0 auto;
-}
-
 .form {
   max-width: 385px;
-  border: 1px solid #838383;
 }
 
 .form__fieldset {
@@ -34,7 +10,7 @@
 
 .form__label {
   display: block;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial. sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -46,24 +22,27 @@
   display: flex;
   justify-content: center;
   gap: 12px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 0;
 }
 
 .form__input {
   display: block;
   width: 100%;
+  min-height: 60px;
   box-sizing: border-box;
   margin-top: 8px;
   padding: 15px 20px;
   border-radius: 4px;
+  border: 1px solid #838383;
 }
 
 .form__input::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -75,13 +54,14 @@
   padding: 20px 0;
   margin-bottom: 32px;
   border: none;
-  font-family: Inter;
+  font-family: "Inter" Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   border-radius: 4px;
   background-color: #1878dc;
+  color: white;
 }
 .form__button:hover {
   background-color: #3f96f3;
