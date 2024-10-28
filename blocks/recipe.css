@@ -1,11 +1,10 @@
 .recipes {
   padding: 100px 80px 215px;
-  min-width: 1100px;
-  max-width: 1600px;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .recipes__title {
